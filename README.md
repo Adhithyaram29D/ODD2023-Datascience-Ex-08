@@ -71,36 +71,34 @@ plt.xticks(rotation = 90)
 sns.barplot(x="Category",y="Sales",data=df)
 plt.xticks(rotation = 90)
 ```
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/69b310d0-7686-465b-8033-7ea17a0833d8)" height=500 width=350>
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/9291dcfb-d723-49fd-b33c-58ad22a16809)
-" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/69b310d0-7686-465b-8033-7ea17a0833d8" height=500 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/9291dcfb-d723-49fd-b33c-58ad22a16809" height=300 width=350>
 
 - <B>_POINTPLOT_</B>
 ```python
 sns.pointplot(x=df["Quantity"],y=df["Discount"])
 ```
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/b6a6f701-ebda-4fcb-a307-fde1f02045a2)" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/b6a6f701-ebda-4fcb-a307-fde1f02045a2" height=300 width=350>
 
 - <B>_COUNT PLOT_</B>
 ```python
 sns.countplot(x="Category",data=df)
 sns.countplot(x="Sub-Category",data=df)
 ```
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/7b9191b4-d75e-4dfe-a051-04b6ba045d96)" height=300 width=350>
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/e3c70bf2-4703-43b1-b695-eab0559eded0)" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/7b9191b4-d75e-4dfe-a051-04b6ba045d96" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/e3c70bf2-4703-43b1-b695-eab0559eded0" height=300 width=350>
 
 - <B>_HISTOGRAM_</B>
 ```python
 sns.histplot(data=df,x ='Ship Mode',hue='Sub-Category')
 ``` 
-<img src="![280222156-6e5a4fab-1cfd-4415-9a76-6e398571742b](https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/73c5c5c3-606e-4030-9406-801e7775649d)" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/73c5c5c3-606e-4030-9406-801e7775649d" height=300 width=350>
 
 - <B>_KDE PLOT_</B>
 ```python
 sns.kdeplot(x="Profit", data = df,hue='Category')
 ```
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/253bae47-e0ad-4ca3-9643-648af77da202)
-" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/253bae47-e0ad-4ca3-9643-648af77da202" height=300 width=350>
 
 ### DATA VISUALIZATION USING MATPLOTLIB :
 - <B>_PLOT_</B>
@@ -108,7 +106,7 @@ sns.kdeplot(x="Profit", data = df,hue='Category')
 plt.plot(df['Category'], df['Sales'])
 plt.show()
 ```
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/0549a345-7dc0-4616-9a29-95accc134733)" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/0549a345-7dc0-4616-9a29-95accc134733" height=300 width=350>
 
 
 - <B>_HEATMAP:_</B>
@@ -117,7 +115,7 @@ df.corr()
 plt.subplots(figsize=(12,7))
 sns.heatmap(df.corr(),annot=True)
 ```
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/4a74ae29-1c3c-4745-82ef-dd8167e7feb9)" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/4a74ae29-1c3c-4745-82ef-dd8167e7feb9" height=300 width=350>
 
 - <B>_PIECHART:_</B>
 ```python
@@ -138,36 +136,36 @@ colors = sns.color_palette('pastel')
 plt.pie(df3["Profit"],colors = colors,labels=labels, autopct = '%0.0f%%')
 plt.show()
 ```
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/3bdf032f-371c-4225-aeb6-641d22090907)" height=300 width=350>
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/d29ea959-ff0d-490d-9867-68f86406188b)" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/3bdf032f-371c-4225-aeb6-641d22090907" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/d29ea959-ff0d-490d-9867-68f86406188b" height=300 width=350>
 
 - <B>_HISTOGRAM:_</B>
 ```python
 plt.hist(df["Sub-Category"],facecolor="peru",edgecolor="blue",bins=10)
 plt.show()
 ```
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/d40c0a4d-3fec-46b5-828f-7b95db50ee83)" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/d40c0a4d-3fec-46b5-828f-7b95db50ee83" height=300 width=350>
 
 - <B>_BARGRAPH:_</B> 
 ```python
 plt.bar(df.index,df['Category'])
 plt.show()
 ```
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/a551d5d6-d08b-4331-8c27-80848cc9992f)" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/a551d5d6-d08b-4331-8c27-80848cc9992f" height=300 width=350>
 
 - <B>_SCATTERPLOT:_</B>
 ```python
 plt.scatter(df["Region"],df["Profit"], c ="blue")
 plt.show() 
 ```
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/b49ce246-8246-4c50-b00e-217ea3ec7c1d)" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/b49ce246-8246-4c50-b00e-217ea3ec7c1d" height=300 width=350>
 
 - <B>_BOXPLOT:_</B>
 ```python
 plt.boxplot(x="Sales",data=df)
 plt.show()
 ```
-<img src="(https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/e693ef94-1aee-49e7-8851-098c10d32775)" height=300 width=350>
+<img src="https://github.com/Adhithyaram29D/ODD2023-Datascience-Ex-08/assets/119393540/e693ef94-1aee-49e7-8851-098c10d32775" height=300 width=350>
 
 # RESULT:
 Hence, Data Visualization is applied on the complex dataset using libraries like Seaborn and Matplotlib successfully and the data is saved to file.
